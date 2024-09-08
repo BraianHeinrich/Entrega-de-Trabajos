@@ -1,0 +1,124 @@
+/* tablet ipad pro */
+
+@media (max-width:1024px) {
+   
+    /* header*/
+
+    .nav-link  {
+        top: 80px;
+        left: 10%;
+        right: 10%;
+        width: 90%;
+        
+    }
+
+    .nav-link a{
+        font-size: 25px;
+        
+    }
+
+    .Logo img{
+        text-align: center;
+        height: 100px;
+        width: 100px;
+    }
+
+    /* info */
+
+    .Portada-info {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .Portada-info h1{
+        width: 90%;
+        max-width: 500px;
+        min-width: unset;
+    }
+
+    .Portada-imagen {
+      display: none;
+    
+    }
+
+    .Portada-info p{
+        width: 80%;
+        max-width: 800px;
+        
+    }
+
+    .Portada-info a{
+        width: 80%;
+        max-width: 900px;
+    }
+
+    /* beneficios */
+
+    .cards-benefeicios h3{
+        font-size: 35px;
+        width: 40%;
+    }
+
+    .beneficios-1 p{
+        font-size: 24px;
+    }
+
+    .text-p{
+       font-size: 25px;
+       left: 5%;
+       height: 5%;
+    }
+
+    .beneficios-1 h4{
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .informacion p{
+        width: 100%;
+        max-width: 600px;
+        color: black;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .box p{
+        font-size: 23px;
+    }
+
+    .box h2{
+        font-size: 20px;
+    }
+    .red-social i{
+        font-size: 25px;
+    }
+
+    .grupo-2 b{
+        font-size: 24px;
+    }
+}
+@media (max-width: 576px) {
+    nav-link{
+        top: 100px;
+        left: 10%;
+        right: 10%;
+        width: 90%;
+        
+        
+    }
+
+    .logo img{
+        
+    }
+}
+    
+    
+
+    
+
+
+
+

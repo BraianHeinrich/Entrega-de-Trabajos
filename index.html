@@ -5,17 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabajo2</title>
     <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="mediaquaries.css">
+    <script src="https://kit.fontawesome.com/9631477bfc.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <header> 
         <a href="#" class="Logo">
             <img src="imagenes/BMH.png" alt="mi Logo"/>
         </a>
-        <nav>
-            <a href="" class="nav-link">Inicio</a>
-            <a href="" class="nav-link">Servicios</a>
-            <a href="" class="nav-link">Productos</a>
-            <a href="" class="nav-link">Contacto</a>
+        <label class="label_hamburguesa" for="menu_hamburguesa">
+            <svg xmlns="http://www.w3.org/2000/svg" 
+              width="35" 
+              height="35" 
+              fill="currentColor" 
+              class="nav-link" 
+              viewBox="0 0 16 16"
+            >
+                <path fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5
+                  0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0
+                  1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0
+                  0 1 0 1H3a.5.5 0 0 1-.5-.5"
+                />
+           </svg>
+        </label>
+        <input class="menu_hamburguesa" type="checkbox" name="" id="menu_hamburguesa">
+        <nav class="nav-link">
+            <a href="#" class="nav-link">Inicio</a>
+            <a href="#" class="nav-link">Servicios</a>
+            <a href="#" class="nav-link">Productos</a>
+            <a href="#" class="nav-link">Contacto</a>
         </nav>
     </header>
     <main>
@@ -35,18 +54,110 @@
             </div>
         </section>
     </main>
+    <section class="cards">
+
+        <div class="cards-benefeicios">
+            <h3>¿Porque elegir nuestros productos?</h3>
+            <p class="text-p">
+              Son productos echos artesanalmente, con una calidad premiunm.
+               con detalles increibless sobre la calabaza, ademas acompañado de
+               una virola de 100% al paca y bombillas o bombillones con calidades premiunm.
+               Mates echos de madera  y calabaza. 
+            </p>
+            <div class="cards-beneficios-group">
+
+                <div class="beneficios-1">
+                    <img src="imagenes/icono-beneficio1.png" alt="">
+                    <h4>Material</h4>
+                    <p>Estan echos de calabaza y madera de roble.
+                        los materiales que utilizamos son materiales aprobado por la empresa
+                        con un sello unico. 
+                        Las calabazas son especialmente sembradas en nustro campo
+                        en donde hay lleva sus respectivos procesos
+                         para la elaboracion del producto.
+                    </p>
+                </div>
+                <div class="beneficios-1">
+                    <img src="imagenes/icono-beneficio2.webp" alt="">
+                    <h4>resposabilidad de entrega</h4>
+                    <p>La entrega del producto la hacemos directo de fabrica
+                        con la necesidad de que todo salga a lo acordado por el comprador 
+                        con sus respectivas informacion. Nosotros empaquetamos el producto y es llevado
+                        por una compañina de reparto.
+                    </p>
+                </div>
+                <div class="beneficios-1">
+                    <img src="imagenes/iscambio 3333.jpg" alt="">
+                    <h4>Pago y Garantia</h4>
+                    <p>Date por seguro que uan ves abonando enseguida vamos a estar
+                        respondiendo por el pedido para que
+                         a tu casa lleve de lo mas rapido posible.
+                        Los pagos se pueden realizar
+                         via pagina o via directo por sucursal.
+                        Cada producto que compres va 
+                        a llevar una garantia de 30
+                         dias habiles o mas dependiendo del 
+                        producto o compra realizada, 
+                        en donde vas a tener la seguridad que si viene algo fallado 
+                        o roto se va a poder cambiar de 
+                        forma inmediata y lo mas ante posibles. 
+                    </p>
+                </div>
+
+
+
+            </div>
+
+            
+        </div>
+    </section>
 
     <section class="info-usuario">
         <div class="informacion">
             <p>
-                Matear al Rato, es una empresa creada en la ciudad de olavarria, provincia de buenos aires
+                "Matear al Rato, es una empresa creada en la ciudad de olavarria, provincia de buenos aires
                 A los querido usuarios o compradores de nuestro productos esperamos que le gusten nuestros productos 
                 aca en la pagina le dejamos un poco de los que vamos a estar vendiendo via online.
-                cualquier duda comunicarse via Gmail. Muchas Gracias. 
+                cualquier duda comunicarse via Gmail. Muchas Gracias". 
             </p>
 
         </div>
     </section>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="imagenes/BMH.png" alt="Logo de la pagina">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Sobre nosotros</h2>
+                <p>Somos una empresa en proceso de emprendimiento ubicada en el pais Aegentina/Provincia de Buenos aires
+                    /Ciudad Olavarria. 
+                    espero que les gusten nuestro negocio y sus artefactos. 
+                </p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS/CONTACTOS</h2>
+                <div class="red-social">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-solid fa-envelope"></i>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2024 <b>BM HEINRICH</b> - Todos los Derechos Reservados</small>
+
+        </div>
+
+    </footer>
+   
      
 </body>
 </html>

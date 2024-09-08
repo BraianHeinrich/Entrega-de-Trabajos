@@ -10,11 +10,12 @@ a{
 
 header{
     display: flex;
-    height: 70px;
+    height: 65px;
     background-color: #000000;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding:  30px;
+    
 }
 
 .Logo{
@@ -41,6 +42,10 @@ nav{
     padding: 10px 0px;
 }
 
+
+.menu_hamburguesa{
+  display: none;
+}
 
 main{
     background-color: #2c2c2c;
@@ -110,12 +115,142 @@ main{
   .info-usuario{
     text-align: center;
     padding: 50px;
+    background-color: #fad2bb;
   }
 
   .informacion {
     font-size: 20px;
-    color: black;
+    color: #fff;
     margin-bottom: 50px;
     padding: 0 100px;
   }
 
+  /* beneficios */
+
+  .cards {
+    padding: 100px;
+    background-color: #e1e2;
+    position: relative;
+  }
+
+  .cards-benefeicios{
+    text-align: center;
+  }
+
+  .cards-benefeicios h3 {
+    font-size: 50px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+    position: relative;
+    
+  }
+
+  .text-p {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+  }
+
+  .cards-beneficios-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .beneficios-1 {
+    padding: 0 25px;
+  }
+
+  .beneficios-1 img {
+    width: 200px;
+  }
+
+  .beneficios-1 img {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+
+  .beneficios-1 h4 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.beneficios-1 p{
+  padding: 0 25px;
+}
+  
+/*:::::::pie de pagina*/
+
+.pie-pagina{
+  width: 100%;
+  background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box img {
+  width: 250px;
+}
+.pie-pagina .grupo-1 .box h2 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social i {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #0d2033;
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social i:hover {
+  color: brown;
+
+}
+.pie-pagina .grupo-2{
+  background-color: #0a1a2a;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+.pie-pagina .grupo-2 small{
+  font-size: 15px;
+}
+@media screen and (max-width:800px){
+  .pie-pagina .grupo-1 {
+  width: 90%;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 30px;
+  padding: 35px 0px;
+  }
+
+}
